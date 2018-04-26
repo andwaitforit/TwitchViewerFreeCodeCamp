@@ -1,0 +1,88 @@
+
+
+.banner{
+   margin:auto;
+  padding:50px;
+    background-color: #98dafc; 
+      font-family: 'Orbitron', sans-serif;
+  font-size:48px;
+}
+.container{
+  margin:auto;
+  padding:50px;
+    background-color: #daad86
+
+}
+.twitchFrame{
+  margin: auto;
+  padding:25px;
+  text-align: center;
+
+ 
+}
+.online{
+border-style:solid;
+padding: 3px;
+background-color:#d3d3d3;
+
+
+}
+.offline{
+border-style:solid;
+padding: 3px;
+background-color:#C0C0C0;
+
+
+}
+.frame{
+width: 600px;
+height: 400px;
+}
+.body{
+  background-color:#312c32
+}
+.fcc{
+  radius:40%;
+}
+.fccTitle{
+  font-family: 'Orbitron', sans-serif;
+    font-size: 16px;
+}
+.lolTitle{
+  font-family: 'Audiowide', cursive;
+  font-size: 16px;
+}
+.pokeTitle{
+  font-family: 'Press Start 2P', cursive;
+    font-size: 14px;
+}
+.row{
+  padding:5px;
+  margin:25px;
+}
+.buttonGroup{
+  float: right;
+}
+.button {
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+.onlineButton{
+      background-color: #4CAF50;
+}
+.offLineButton{
+      background-color: #dedede;
+}
+/*font-family: 'Press Start 2P', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Abril Fatface', cursive;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Audiowide', cursive;*/

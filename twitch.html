@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head><title>Twitch Viewer</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Audiowide|Lobster|Orbitron|Press+Start+2P" rel="stylesheet">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link  type="text/css" rel="stylesheet" href="twitch_style.css">
+<script src="twitch.js"></script>
+</head>
+
+<body class="body">
+  <br>
+  <br>
+  <div>
+    <div class="container">
+      <div class="header">
+        <h1 class="banner">Twitch Viewer</h1>
+        <div class="buttonGroup">
+            <button class="button onlineButton" id="onlineButton" onclick="showOnline()"></button><p1>Online Streamers</p1>
+             <!--   <button class="button offlineButton" id="offlineButton" onclick="showOffline()"></button><p1>Offline Streamers</p1>-->
+              </div>
+      </div>
+      <div class="twitchFrame">
+      <!--
+        <iframe src="https://www.twitch.tv/freecodecamp" class="frame" id='frameSearch' name='frameResults'></iframe>-->
+          </div>
+  <div class="onlineResults" id="onlineResults"><p1 class="pokeTitle">Currently Online</p1>
+  </div><!--Loop through args "streamers" append json results here-->
+    <!--
+    <div class="buttonGroup">
+      <div class="btn-group-vertical">
+        <div class="row">
+      <button class="btn btn-success" id="fcc">
+        <p1 class="fccStatus">Online</p1>
+        </button><p2 class="fccTitle">  Free Code Camp Stream</p2><p2 class ="fccTitle" id="fccDesc"></p2>
+        </div>
+          <div class="row">
+      <button class="btn btn-basic" id="lol">
+       <p1 class="lolStatus">Offline</p1>
+      </button><p2 class="lolTitle">  League of Legends Stream</p2><p2 class ="lolTitle" id="desc"></p2>
+        </div>
+          <div class="row">
+      <button class="btn btn-basic" id="tpp">
+       <p1 class="pokeStatus" id="status">Offline</p1>
+      </button><p2 class="pokeTitle">Twitch Plays Pokemon Stream</p2>
+        </div>
+      </div>-->
+      <div class="offlineRsults" id="offlineResults"><p1 class="pokeTitle">Currently Offline</p1></div><!--Loop through args "streamers" append json results here-->
+            
+    </div>
+      </div>
+
+
+
+
+
+ <!-- </div> -->
+  </body
+
+</html>
+<!-- color pallete http://www.color-hex.com/color-palette/55765 -->
